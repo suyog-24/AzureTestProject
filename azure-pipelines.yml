@@ -46,7 +46,7 @@ steps:
     arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: false
 
-stages:
+- stages:
   - stage: DeployWebsite
     displayName: 'Deploy website'        
     pool:
