@@ -55,7 +55,7 @@ stages:
     jobs:    
     - deployment: DeployWebsite
       displayName: 'Deploy website'
-      environment: 'Production.DAVE'
+      environment: 'Production.Windows'
       strategy:
        runOnce:
          deploy:           
